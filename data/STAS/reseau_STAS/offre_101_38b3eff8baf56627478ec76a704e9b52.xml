@@ -1,0 +1,3611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery version="1.09:FR-NETEX_HORAIRE-2.1-1.0" xmlns="http://www.netex.org.uk/netex" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex">
+	<PublicationTimestamp>2022-08-27T09:10:29+00:00</PublicationTimestamp>
+	<ParticipantRef>transport.data.gouv.fr</ParticipantRef>
+	<dataObjects>
+		<GeneralFrame id="FR:GeneralFrame:NETEX_HORAIRE:" version="any">
+			<members>
+				<Route id="FR:Route:101:" version="any">
+					<Name>MAISON D&apos;ARRET - RENE CASSIN</Name>
+					<Distance>0</Distance>
+					<LineRef ref="FR:Line:101:">
+					</LineRef>
+					<DirectionType>inbound</DirectionType>
+					<pointsInSequence>
+						<PointOnRoute id="FR:PointOnRoute:101_1:" order="1" version="any">
+							<RoutePointRef ref="FR:RoutePoint:101_1:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:101_2:" order="2" version="any">
+							<RoutePointRef ref="FR:RoutePoint:101_2:">
+							</RoutePointRef>
+						</PointOnRoute>
+					</pointsInSequence>
+				</Route>
+				<Route id="FR:Route:101_R:" version="any">
+					<Name>RENE CASSIN - MAISON D&apos;ARRET</Name>
+					<Distance>0</Distance>
+					<LineRef ref="FR:Line:101:">
+					</LineRef>
+					<DirectionType>outbound</DirectionType>
+					<pointsInSequence>
+						<PointOnRoute id="FR:PointOnRoute:101_R_1:" order="1" version="any">
+							<RoutePointRef ref="FR:RoutePoint:101_R_1:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:101_R_2:" order="2" version="any">
+							<RoutePointRef ref="FR:RoutePoint:101_R_2:">
+							</RoutePointRef>
+						</PointOnRoute>
+					</pointsInSequence>
+				</Route>
+				<RoutePoint id="FR:RoutePoint:101_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">810606.0689146089 6487039.756232973</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:101_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">811642.619878353 6486157.712483747</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:101_R_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">811711.9868894133 6486208.0759636825</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:101_R_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">810606.0689146089 6487039.756232973</gml:pos>
+					</Location>
+				</RoutePoint>
+				<ServiceJourneyPattern id="FR:ServiceJourneyPattern:14878:" version="any">
+					<Distance>0</Distance>
+					<RouteRef ref="FR:Route:101:">
+					</RouteRef>
+					<pointsInSequence>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:14878_1:" order="2" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14878_1:">
+							</ScheduledStopPointRef>
+							<ForAlighting>false</ForAlighting>
+							<ForBoarding>false</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:14878_2:" order="3" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14878_2:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>false</ForBoarding>
+						</StopPointInJourneyPattern>
+					</pointsInSequence>
+				</ServiceJourneyPattern>
+				<ServiceJourneyPattern id="FR:ServiceJourneyPattern:14890:" version="any">
+					<Distance>0</Distance>
+					<RouteRef ref="FR:Route:101_R:">
+					</RouteRef>
+					<pointsInSequence>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:14890_1:" order="2" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14890_1:">
+							</ScheduledStopPointRef>
+							<ForAlighting>false</ForAlighting>
+							<ForBoarding>false</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:14890_2:" order="3" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14890_2:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>false</ForBoarding>
+						</StopPointInJourneyPattern>
+					</pointsInSequence>
+				</ServiceJourneyPattern>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:14878_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">810606.0689146089 6487039.756232973</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:14878_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">811642.619878353 6486157.712483747</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:14890_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">811711.9868894133 6486208.0759636825</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:14890_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">810606.0689146089 6487039.756232973</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:14878_1:" order="2" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14878_1:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_1322_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:1322:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:14878_2:" order="3" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14878_2:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_1152_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:1152:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:14890_1:" order="2" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14890_1:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_1153_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:1153:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:14890_2:" order="3" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:14890_2:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_1322_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:1322:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<ServiceJourney id="FR:ServiceJourney:14878:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14879:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:59:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:59:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14880:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:33:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:33:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14881:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:05:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:05:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14882:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14883:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14884:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:57:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:57:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14885:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:09:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:09:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14886:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14887:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14888:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14889:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14902:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14903:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:59:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:59:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14904:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:33:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:33:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14905:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:05:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:05:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14906:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14907:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14908:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:57:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:57:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14909:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:09:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:09:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14910:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14911:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14912:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14913:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14926:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14927:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:59:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:59:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14928:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:33:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:33:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14929:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:05:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:05:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14930:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14931:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14932:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:57:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:57:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14933:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:09:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:09:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14934:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14935:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14936:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14937:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14950:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14951:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:59:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:59:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14952:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:33:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:33:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14953:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:05:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:05:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14954:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14955:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14956:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:57:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:57:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14957:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:09:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:09:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14958:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14959:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14960:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14961:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14974:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14975:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:59:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:59:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14976:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:33:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:33:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14977:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:05:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:05:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14978:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14979:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14980:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:57:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:57:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14981:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:09:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:09:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14982:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14983:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14984:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14985:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14998:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>06:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>06:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14999:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:59:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:59:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15000:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:33:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:33:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15001:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:05:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:05:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15002:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15003:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15004:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:57:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:57:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:01:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:01:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15005:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:09:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:09:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15006:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15007:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15008:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15009:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14878:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14890:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14891:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14892:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14893:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14894:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:06:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:06:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14895:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14896:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:49:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:49:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14897:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:34:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:34:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14898:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14899:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:56:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:56:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:00:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:00:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14900:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14901:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14914:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14915:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14916:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14917:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14918:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:06:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:06:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14919:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14920:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:49:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:49:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14921:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:34:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:34:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14922:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14923:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:56:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:56:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:00:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:00:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14924:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14925:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14938:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14939:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14940:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14941:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14942:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:06:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:06:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14943:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14944:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:49:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:49:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14945:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:34:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:34:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14946:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14947:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:56:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:56:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:00:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:00:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14948:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14949:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14962:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14963:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14964:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14965:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14966:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:06:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:06:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14967:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14968:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:49:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:49:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14969:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:34:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:34:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14970:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14971:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:56:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:56:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:00:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:00:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14972:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14973:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V1-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14986:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14987:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14988:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14989:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14990:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:06:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:06:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14991:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14992:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:49:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:49:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14993:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:34:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:34:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14994:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14995:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-30:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:56:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:56:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:00:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:00:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14996:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:14997:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15010:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15011:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>08:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>08:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15012:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:51:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:51:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>09:55:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>09:55:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15013:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>10:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>10:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15014:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:06:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:06:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15015:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:50:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:50:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>12:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>12:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15016:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>13:49:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>13:49:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15017:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:34:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:34:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15018:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:54:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:54:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>14:58:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>14:58:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15019:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>15:56:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>15:56:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>16:00:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>16:00:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15020:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:15021:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:V2-5-1-127:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:14890:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>18:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>18:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+			</members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>

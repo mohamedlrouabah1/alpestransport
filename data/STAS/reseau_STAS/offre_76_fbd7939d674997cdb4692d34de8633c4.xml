@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery version="1.09:FR-NETEX_HORAIRE-2.1-1.0" xmlns="http://www.netex.org.uk/netex" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex">
+	<PublicationTimestamp>2022-08-27T09:10:29+00:00</PublicationTimestamp>
+	<ParticipantRef>transport.data.gouv.fr</ParticipantRef>
+	<dataObjects>
+		<GeneralFrame id="FR:GeneralFrame:NETEX_HORAIRE:" version="any">
+			<members>
+				<Route id="FR:Route:76:" version="any">
+					<Name>COLL. J. ROMAINS - BUISSONNET</Name>
+					<Distance>0</Distance>
+					<LineRef ref="FR:Line:76:">
+					</LineRef>
+					<DirectionType>inbound</DirectionType>
+					<pointsInSequence>
+						<PointOnRoute id="FR:PointOnRoute:76_1:" order="1" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_1:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_2:" order="2" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_2:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_3:" order="3" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_3:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_4:" order="4" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_4:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_5:" order="5" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_5:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_6:" order="6" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_6:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_7:" order="7" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_7:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_8:" order="8" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_8:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_9:" order="9" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_9:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_10:" order="10" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_10:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_11:" order="11" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_11:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_12:" order="12" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_12:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_13:" order="13" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_13:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_14:" order="14" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_14:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_15:" order="15" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_15:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_16:" order="16" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_16:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_17:" order="17" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_17:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_18:" order="18" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_18:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_19:" order="19" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_19:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_20:" order="20" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_20:">
+							</RoutePointRef>
+						</PointOnRoute>
+					</pointsInSequence>
+				</Route>
+				<Route id="FR:Route:76_R:" version="any">
+					<Name>LES OGIERS - COLL. J. ROMAINS</Name>
+					<Distance>0</Distance>
+					<LineRef ref="FR:Line:76:">
+					</LineRef>
+					<DirectionType>outbound</DirectionType>
+					<pointsInSequence>
+						<PointOnRoute id="FR:PointOnRoute:76_R_1:" order="1" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_1:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_2:" order="2" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_2:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_3:" order="3" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_3:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_4:" order="4" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_4:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_5:" order="5" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_5:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_6:" order="6" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_6:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_7:" order="7" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_7:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_8:" order="8" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_8:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_9:" order="9" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_9:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_10:" order="10" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_10:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_11:" order="11" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_11:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_12:" order="12" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_12:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_13:" order="13" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_13:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_14:" order="14" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_14:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_15:" order="15" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_15:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_16:" order="16" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_16:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_17:" order="17" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_17:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_18:" order="18" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_18:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_19:" order="19" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_19:">
+							</RoutePointRef>
+						</PointOnRoute>
+						<PointOnRoute id="FR:PointOnRoute:76_R_20:" order="20" version="any">
+							<RoutePointRef ref="FR:RoutePoint:76_R_20:">
+							</RoutePointRef>
+						</PointOnRoute>
+					</pointsInSequence>
+				</Route>
+				<RoutePoint id="FR:RoutePoint:76_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801891.6108751879 6500157.301625675</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801811.8063123587 6500406.760008817</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_3:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802363.5662267576 6500201.242936994</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_4:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802626.5563599153 6500110.083828874</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_5:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802617.8032104785 6499903.341834007</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_6:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802909.4636798077 6499659.074386244</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_7:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803614.5354154734 6499740.995879083</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_8:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803394.2789048632 6499453.127595369</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_9:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802553.2828661632 6499013.681205449</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_10:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802745.8936823374 6498753.271932651</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_11:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802974.1510836168 6498337.696927635</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_12:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803761.2155865226 6498075.225941657</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_13:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802698.5012059942 6498350.033858679</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_14:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803176.3575654556 6495565.440946351</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_15:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803231.2326669855 6494499.923007153</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_16:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803102.6249076567 6494180.303459698</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_17:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803668.3898230254 6494564.142013842</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_18:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803602.7552258263 6495187.145864601</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_19:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803556.8717655541 6495548.215049763</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_20:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803407.8620810092 6496001.0810304815</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803176.3575654556 6495565.440946351</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803231.2326669855 6494499.923007153</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_3:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803102.6249076567 6494180.303459698</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_4:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803668.3898230254 6494564.142013842</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_5:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803602.7552258263 6495187.145864601</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_6:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803556.8717655541 6495548.215049763</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_7:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803407.8620810092 6496001.0810304815</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_8:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802718.4479850784 6498345.86765988</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_9:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803761.2155865226 6498075.225941657</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_10:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802991.4918330497 6498379.512075543</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_11:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802786.6417685867 6498727.947356169</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_12:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802534.2075884136 6499002.853287833</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_13:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803411.3136008047 6499458.977295946</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_14:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803614.5354154734 6499740.995879083</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_15:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802953.4554630696 6499662.696455183</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_16:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802620.5877840506 6499878.340302629</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_17:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802635.6667534243 6500123.993885516</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_18:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802353.7288484729 6500219.310701662</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_19:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801845.0637084771 6500440.446875874</gml:pos>
+					</Location>
+				</RoutePoint>
+				<RoutePoint id="FR:RoutePoint:76_R_20:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801891.6108751879 6500157.301625675</gml:pos>
+					</Location>
+				</RoutePoint>
+				<ServiceJourneyPattern id="FR:ServiceJourneyPattern:38326:" version="any">
+					<Distance>0</Distance>
+					<RouteRef ref="FR:Route:76:">
+					</RouteRef>
+					<pointsInSequence>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_1:" order="2" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_1:">
+							</ScheduledStopPointRef>
+							<ForAlighting>false</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_2:" order="3" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_2:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_3:" order="4" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_3:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_4:" order="5" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_4:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_5:" order="6" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_5:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_6:" order="7" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_6:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_7:" order="8" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_7:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_8:" order="9" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_8:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_9:" order="10" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_9:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_10:" order="11" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_10:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_11:" order="12" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_11:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_12:" order="13" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_12:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_13:" order="14" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_13:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_14:" order="15" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_14:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_15:" order="16" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_15:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_16:" order="17" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_16:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_17:" order="18" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_17:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_18:" order="19" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_18:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_19:" order="20" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_19:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38326_20:" order="21" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_20:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>false</ForBoarding>
+						</StopPointInJourneyPattern>
+					</pointsInSequence>
+				</ServiceJourneyPattern>
+				<ServiceJourneyPattern id="FR:ServiceJourneyPattern:38328:" version="any">
+					<Distance>0</Distance>
+					<RouteRef ref="FR:Route:76_R:">
+					</RouteRef>
+					<pointsInSequence>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_1:" order="2" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_1:">
+							</ScheduledStopPointRef>
+							<ForAlighting>false</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_2:" order="3" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_2:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_3:" order="4" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_3:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_4:" order="5" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_4:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_5:" order="6" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_5:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_6:" order="7" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_6:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_7:" order="8" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_7:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_8:" order="9" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_8:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_9:" order="10" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_9:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_10:" order="11" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_10:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_11:" order="12" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_11:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_12:" order="13" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_12:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_13:" order="14" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_13:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_14:" order="15" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_14:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_15:" order="16" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_15:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_16:" order="17" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_16:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_17:" order="18" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_17:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_18:" order="19" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_18:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_19:" order="20" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_19:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>true</ForBoarding>
+						</StopPointInJourneyPattern>
+						<StopPointInJourneyPattern id="FR:StopPointInJourneyPattern:38328_20:" order="21" version="any">
+							<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_20:">
+							</ScheduledStopPointRef>
+							<ForAlighting>true</ForAlighting>
+							<ForBoarding>false</ForBoarding>
+						</StopPointInJourneyPattern>
+					</pointsInSequence>
+				</ServiceJourneyPattern>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801891.6108751879 6500157.301625675</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801811.8063123587 6500406.760008817</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_3:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802363.5662267576 6500201.242936994</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_4:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802626.5563599153 6500110.083828874</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_5:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802617.8032104785 6499903.341834007</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_6:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802909.4636798077 6499659.074386244</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_7:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803614.5354154734 6499740.995879083</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_8:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803394.2789048632 6499453.127595369</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_9:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802553.2828661632 6499013.681205449</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_10:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802745.8936823374 6498753.271932651</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_11:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802974.1510836168 6498337.696927635</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_12:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803761.2155865226 6498075.225941657</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_13:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802698.5012059942 6498350.033858679</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_14:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803176.3575654556 6495565.440946351</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_15:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803231.2326669855 6494499.923007153</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_16:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803102.6249076567 6494180.303459698</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_17:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803668.3898230254 6494564.142013842</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_18:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803602.7552258263 6495187.145864601</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_19:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803556.8717655541 6495548.215049763</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38326_20:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803407.8620810092 6496001.0810304815</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_1:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803176.3575654556 6495565.440946351</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_2:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803231.2326669855 6494499.923007153</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_3:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803102.6249076567 6494180.303459698</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_4:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803668.3898230254 6494564.142013842</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_5:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803602.7552258263 6495187.145864601</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_6:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803556.8717655541 6495548.215049763</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_7:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803407.8620810092 6496001.0810304815</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_8:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802718.4479850784 6498345.86765988</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_9:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803761.2155865226 6498075.225941657</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_10:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802991.4918330497 6498379.512075543</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_11:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802786.6417685867 6498727.947356169</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_12:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802534.2075884136 6499002.853287833</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_13:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803411.3136008047 6499458.977295946</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_14:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">803614.5354154734 6499740.995879083</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_15:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802953.4554630696 6499662.696455183</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_16:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802620.5877840506 6499878.340302629</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_17:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802635.6667534243 6500123.993885516</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_18:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">802353.7288484729 6500219.310701662</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_19:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801845.0637084771 6500440.446875874</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<ScheduledStopPoint id="FR:ScheduledStopPoint:38328_20:" version="any">
+					<Location>
+						<gml:pos srsName="EPSG:2154">801891.6108751879 6500157.301625675</gml:pos>
+					</Location>
+				</ScheduledStopPoint>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_1:" order="2" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_1:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2339_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2339:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_2:" order="3" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_2:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2346_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2346:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_3:" order="4" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_3:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2350_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2350:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_4:" order="5" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_4:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2348_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2348:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_5:" order="6" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_5:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2342_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2342:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_6:" order="7" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_6:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2334_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2334:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_7:" order="8" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_7:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2336_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2336:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_8:" order="9" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_8:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2337_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2337:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_9:" order="10" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_9:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2328_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2328:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_10:" order="11" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_10:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2330_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2330:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_11:" order="12" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_11:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2323_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2323:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_12:" order="13" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_12:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2322_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2322:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_13:" order="14" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_13:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2325_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2325:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_14:" order="15" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_14:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2317_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2317:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_15:" order="16" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_15:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2314_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2314:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_16:" order="17" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_16:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2307_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2307:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_17:" order="18" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_17:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2315_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2315:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_18:" order="19" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_18:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2316_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2316:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_19:" order="20" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_19:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2318_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2318:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38326_20:" order="21" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38326_20:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2320_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2320:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_1:" order="2" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_1:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2317_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2317:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_2:" order="3" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_2:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2314_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2314:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_3:" order="4" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_3:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2307_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2307:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_4:" order="5" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_4:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2315_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2315:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_5:" order="6" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_5:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2316_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2316:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_6:" order="7" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_6:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2318_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2318:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_7:" order="8" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_7:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2320_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2320:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_8:" order="9" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_8:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2415_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2415:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_9:" order="10" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_9:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2322_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2322:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_10:" order="11" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_10:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2324_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2324:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_11:" order="12" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_11:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2331_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2331:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_12:" order="13" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_12:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2329_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2329:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_13:" order="14" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_13:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2338_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2338:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_14:" order="15" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_14:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2336_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2336:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_15:" order="16" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_15:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2335_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2335:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_16:" order="17" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_16:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2343_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2343:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_17:" order="18" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_17:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2349_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2349:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_18:" order="19" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_18:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2351_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2351:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_19:" order="20" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_19:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2347_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2347:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<PassengerStopAssignment id="FR:PassengerStopAssignment:38328_20:" order="21" version="any">
+					<ScheduledStopPointRef ref="FR:ScheduledStopPoint:38328_20:">
+					</ScheduledStopPointRef>
+					<StopPlaceRef ref="FR:StopPlace:Navitia_2339_bus:">
+					</StopPlaceRef>
+					<QuayRef ref="FR:Quay:2339:">
+					</QuayRef>
+				</PassengerStopAssignment>
+				<ServiceJourney id="FR:ServiceJourney:38326:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-4:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:38326:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:11:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:11:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:12:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:12:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:14:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:14:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:15:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:15:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:16:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:16:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:19:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:19:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:20:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:20:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:23:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:23:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:24:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:24:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:26:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:26:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:29:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:29:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:40:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:40:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:46:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:46:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>11:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>11:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:38327:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-27:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:38326:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:11:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:11:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:12:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:12:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:14:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:14:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:15:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:15:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:16:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:16:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:19:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:19:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:20:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:20:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:23:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:23:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:24:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:24:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:26:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:26:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:29:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:29:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:31:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:31:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:37:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:37:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:40:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:40:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:46:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:46:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>17:47:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>17:47:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+				<ServiceJourney id="FR:ServiceJourney:38328:" version="any">
+					<dayTypes>
+						<DayTypeRef ref="FR:DayType:H1-0-1-31:">
+						</DayTypeRef>
+					</dayTypes>
+					<JourneyPatternRef ref="FR:ServiceJourneyPattern:38328:">
+					</JourneyPatternRef>
+					<OperatorRef ref="FR:Operator:1:">
+					</OperatorRef>
+					<passingTimes>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:10:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:10:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:12:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:12:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:13:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:13:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:16:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:16:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:18:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:18:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:19:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:19:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:20:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:20:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:25:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:25:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:27:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:27:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:29:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:29:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:30:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:30:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:32:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:32:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:35:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:35:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:36:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:36:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:39:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:39:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:40:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:40:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:41:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:41:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:43:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:43:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:45:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:45:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+						<TimetabledPassingTime>
+							<ArrivalTime>07:46:00</ArrivalTime>
+							<ArrivalDayOffset>0</ArrivalDayOffset>
+							<DepartureTime>07:46:00</DepartureTime>
+							<DepartureDayOffset>0</DepartureDayOffset>
+						</TimetabledPassingTime>
+					</passingTimes>
+				</ServiceJourney>
+			</members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>

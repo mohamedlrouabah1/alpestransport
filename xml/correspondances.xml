@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery version="1.09:FR-NETEX_RESEAU-2.1-1.0" xmlns="http://www.netex.org.uk/netex" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex">
+	<PublicationTimestamp>2022-08-27T09:10:29+00:00</PublicationTimestamp>
+	<ParticipantRef>transport.data.gouv.fr</ParticipantRef>
+	<dataObjects>
+		<GeneralFrame id="FR:GeneralFrame:NETEX_RESEAU:" version="any">
+			<members>
+				<SiteConnection id="FR:SiteConnection:531_530:" version="any">
+					<WalkTransferDuration>
+						<DefaultDuration>PT491S</DefaultDuration>
+					</WalkTransferDuration>
+					<From>
+						<StopPlaceRef ref="FR:StopPlace:Navitia_531:">
+						</StopPlaceRef>
+						<QuayRef ref="FR:Quay:531:">
+						</QuayRef>
+					</From>
+					<To>
+						<StopPlaceRef ref="FR:StopPlace:Navitia_530:">
+						</StopPlaceRef>
+						<QuayRef ref="FR:Quay:530:">
+						</QuayRef>
+					</To>
+				</SiteConnection>
+            </members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>

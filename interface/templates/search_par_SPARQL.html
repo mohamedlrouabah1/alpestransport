@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Résultats de la recherche</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='/icon/favicon.ico') }}">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Résultats de la recherche</h1>
+
+    {% if results.success == 1 %}
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Libellé</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in results.search %}
+        <tr>
+          <td>{{ item.id }}</td>
+          <td>{{ item.label }}</td>
+          <td>{{ entity_description }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <h2>Déclarations</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Propriété</th>
+          <th>Valeur</th>
+          <!-- <th>Libellé</th>
+          <th>Description</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        {% for property_id, claims in entity_claims.items() %}
+        <tr>
+          <td>{{ property_id }}</td>
+          <td>
+            {% for claim in claims %}
+            {% if claim["mainsnak"]["datavalue"]["type"] == "wikibase-entityid" %}
+            <a href="{{ claim[" mainsnak"]["datavalue"]["value"]["id"] }}">{{
+              claim["mainsnak"]["datavalue"]["value"]["id"] }}</a>
+            {% else %}
+            {{ claim["mainsnak"]["datavalue"]["value"] }}
+            {% endif %}
+            <br>
+            {% endfor %}
+          </td>
+          {% endfor %}
+          <!-- {% for props in results.search %}
+          <td>{{ props.label }}</td>
+          <td>{{ props.description }}</td>
+          {% endfor %} -->
+        </tr>
+      </tbody>
+    </table>
+
+    {% else %}
+    <p>Aucun résultat trouvé.</p>
+    {% endif %}
+  </div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+// Sort the coordinates based on the names of the stops
+    var sortedCoordinates = position.slice().sort((a, b) => {
+      const indexA = names.findIndex(name => name === a.name);
+      const indexB = names.findIndex(name => name === b.name);
+      return indexA - indexB;
+    });
+
+    // Create a GeoJSON object for the route lines
+    const routeLines = {
+      'type': 'FeatureCollection',
+      'features': []
+    };
+
+    // Create a single line containing all the sorted coordinates
+    const coordinates = sortedCoordinates.map(coord => [coord[0], coord[1]]);
+    routeLines.features.push({
+      'type': 'Feature',
+      'geometry': {
+        'type': 'LineString',
+        'coordinates': coordinates
+      }
+    });
+
+
+    // Wait for the map to load completely
+    map.on('load', function () {
+      // Add route lines source
+      map.addSource('route', {
+        'type': 'geojson',
+        'data': routeLines
+      });
+
+      // Add route lines layer
+      map.addLayer({
+        'id': 'route',
+        'type': 'line',
+        'source': 'route',
+        'layout': {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        'paint': {
+          'line-color': '#007bff',
+          'line-width': 4
+        }
+      });
+    });

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery version="1.09:FR-NETEX_CALENDRIER-2.1-1.0" xmlns="http://www.netex.org.uk/netex" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex">
+	<PublicationTimestamp>2022-08-27T09:10:29+00:00</PublicationTimestamp>
+	<ParticipantRef>transport.data.gouv.fr</ParticipantRef>
+	<dataObjects>
+		<GeneralFrame id="FR:GeneralFrame:NETEX_CALENDRIER:" version="any">
+			<ValidBetween>
+				<FromDate>2022-08-17T00:00:00+00:00</FromDate>
+				<ToDate>2022-11-06T23:59:59+00:00</ToDate>
+			</ValidBetween>
+			<members>
+				<DayType id="FR:DayType:E1-0-1-10:" version="any">
+				</DayType>
+                <DayTypeAssignment id="FR:DayTypeAssignment:E1-0-1-10:" order="0" version="any">
+					<OperatingPeriodRef ref="FR:UicOperatingPeriod:E1-0-1-10:">
+					</OperatingPeriodRef>
+					<DayTypeRef ref="FR:DayType:E1-0-1-10:">
+					</DayTypeRef>
+				</DayTypeAssignment>
+                <UicOperatingPeriod id="FR:UicOperatingPeriod:H1-0-1-4:" version="any">
+					<FromDate>2022-08-31T00:00:00+00:00</FromDate>
+					<ValidDayBits>10000001000000100000010000001000000100000010000001</ValidDayBits>
+				</UicOperatingPeriod>
+            </members>
+		</GeneralFrame>
+	</dataObjects>
+</PublicationDelivery>

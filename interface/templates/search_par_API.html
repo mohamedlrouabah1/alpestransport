@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Résultats de la recherche</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <style>
+    body {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /* Add this line to ensure the background is fixed while scrolling */
+      background-attachment: fixed;
+    }
+
+    #map {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 80%;
+      width: 80%;
+      border: 2px solid #007bff;
+    }
+
+    .item-labels-container {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .map-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    #back-btn {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+
+<body style="background-image: url('{{ url_for('static', filename='EveningTrain.gif') }}');">
+  <div class="container">
+
+
+    <div class="item-labels-container">
+      {% for item_label in item_labels %}
+      <p class="map-title">{{ item_label }}</p>
+      {% endfor %}
+    </div>
+
+    <div id="map" style="z-index : 2"></div>
+
+    <a href="/" class="btn btn-primary" id="back-btn">Retour</a>
+
+  </div>
+
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+
+  <script>
+    var position = {{ coordinates| safe }};
+    var names = {{ noms_arrets| safe }};
+    var labels = {{ property_arrets| safe }};
+    var horaires = {{ horaires_arrets| safe }};
+    var mode_transport = {{ moyen_transport| safe }};
+    console.log(names);
+    console.log(labels);
+    console.log(horaires);
+    console.log(mode_transport);
+    mapboxgl.accessToken = 'pk.eyJ1IjoibW9oYW1lZDQyIiwiYSI6ImNsZXlod2hyNzA1NnozcWw1ZndnMGo3ZDcifQ.2hR4GdZIDuaBx2nZb-uvxg';
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [position[0][0], position[0][1]],
+      zoom: 9
+    });
+    // Add zoom and rotation controls to the map.
+    map.addControl(new mapboxgl.NavigationControl());
+
+    // Add fullscreen control
+    map.addControl(new mapboxgl.FullscreenControl());
+
+    // Add markers to the map
+    for (var i = 0; i < position.length; i++) {
+      new mapboxgl.Marker()
+        .setLngLat([position[i][0], position[i][1]])
+        .setPopup(new mapboxgl.Popup().setHTML(names[i] + "<br>" + labels[i] + "<br>" + horaires[i] + "<br>" + mode_transport))
+        .addTo(map);
+    }
+    
+
+  </script>
+</body>
+
+</html>

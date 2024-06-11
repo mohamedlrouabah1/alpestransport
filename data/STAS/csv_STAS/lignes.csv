@@ -1,0 +1,86 @@
+name,transport_mode,public_code,operator_name,operator_website
+PLACE JEAN JAURES <> BOURG,bus,10,STAS,https://www.reseau-stas.fr/
+MAISON D'ARRET <> RENE CASSIN,bus,101,STAS,https://www.reseau-stas.fr/
+PLACE DU MOULIN <> LUZERNOD,bus,102,STAS,https://www.reseau-stas.fr/
+GARE ROUTIERE <> LA FLECHETTE,bus,103,STAS,https://www.reseau-stas.fr/
+GARE ROUTIERE <> LES VIGNES,bus,104,STAS,https://www.reseau-stas.fr/
+GARE ROUTIERE RDG <> MAIRIE CHATEAUNEUF,bus,105,STAS,https://www.reseau-stas.fr/
+GARE ROUTIERE RDG <> LE BAJARD,bus,106,STAS,https://www.reseau-stas.fr/
+CIMETIERE <> CONDAMINE,bus,107,STAS,https://www.reseau-stas.fr/
+CIMETIERE <> QUERET,bus,108,STAS,https://www.reseau-stas.fr/
+CIMETIERE <> BOURG ST VICTOR,bus,109,STAS,https://www.reseau-stas.fr/
+SQUARE VIOLETTE <> MONTPLAISIR,bus,11,STAS,https://www.reseau-stas.fr/
+BEL AIR <> VILLEBOEUF-LE-HAUT,bus,12,STAS,https://www.reseau-stas.fr/
+LE CHASSEUR <> PORTAIL ROUGE,bus,13,STAS,https://www.reseau-stas.fr/
+CHATEAUCREUX GARE <> GRAND QUARTIER,bus,14,STAS,https://www.reseau-stas.fr/
+LYCEE SIMONE WEIL <> METROTECH,bus,16,STAS,https://www.reseau-stas.fr/
+LA BERTRANDIERE <> MAIRIE,bus,17,STAS,https://www.reseau-stas.fr/
+HAUTS DE TERRENOIRE <> PERROTIERE,bus,20,STAS,https://www.reseau-stas.fr/
+CRET DE MONTAUD <> PLACE DES PERES,bus,21,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> COTONNE,bus,22,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> LE BERNAY,bus,23,STAS,https://www.reseau-stas.fr/
+DORIAN / HOTEL DE VILLE <> PETITES SOEURS,bus,24,STAS,https://www.reseau-stas.fr/
+TERRASSE <> GARE,bus,25,STAS,https://www.reseau-stas.fr/
+TERRASSE <> COLLEGE PARKING NORD,bus,27,STAS,https://www.reseau-stas.fr/
+GREEN PARK <> ECOLE DU FAY,bus,28,STAS,https://www.reseau-stas.fr/
+PLACE DU MOULIN <> CHATEAUCREUX GARE,bus,29,STAS,https://www.reseau-stas.fr/
+LA MICHALIERE <> LE PERTUISET,bus,30,STAS,https://www.reseau-stas.fr/
+GARE FIRMINY <> LES 3 ROUTES,bus,31,STAS,https://www.reseau-stas.fr/
+GARE <> COLLEGE LA RIVE,bus,32,STAS,https://www.reseau-stas.fr/
+CHAZEAU <> VERTE COLLINE,bus,33,STAS,https://www.reseau-stas.fr/
+GARE <> MAIRIE,bus,34,STAS,https://www.reseau-stas.fr/
+JEAN JAURES <> BASE NAUTIQUE,bus,36,STAS,https://www.reseau-stas.fr/
+HOPITAL NORD <> GARE ANDREZIEUX,bus,37,STAS,https://www.reseau-stas.fr/
+NAUTIFORM <> STADE LAPRA,bus,39,STAS,https://www.reseau-stas.fr/
+CENTRE CIAL MALADIERE <> PISCINE COUDERC,bus,40,STAS,https://www.reseau-stas.fr/
+PLACE DU MOULIN <> CRET OEILLET HAUT,bus,41,STAS,https://www.reseau-stas.fr/
+PLACE DU MOULIN <> OLLAGNIERE/LE POYET,bus,42,STAS,https://www.reseau-stas.fr/
+CRET OEILLET <> CHAVANNE BOURG,bus,43,STAS,https://www.reseau-stas.fr/
+PLACE DU MOULIN <> LA BACHASSE,bus,44,STAS,https://www.reseau-stas.fr/
+PLACE DU MOULIN <> SAINT-MARTIN-EN-COAILLEUX,bus,45,STAS,https://www.reseau-stas.fr/
+GARE ROUTIERE <> MAIRIE/LE MAS,bus,46,STAS,https://www.reseau-stas.fr/
+LE PLANTIER <> LA CULA,bus,47,STAS,https://www.reseau-stas.fr/
+MAIRIE <> CHARLES DE GAULLE,bus,48,STAS,https://www.reseau-stas.fr/
+CHARLES DE GAULLE <> MAISON FORTE,bus,49,STAS,https://www.reseau-stas.fr/
+LES MARIANNES <> LA MADELEINE,bus,57,STAS,https://www.reseau-stas.fr/
+LES 3 ROUTES <> BD HAUT FOREZ VIA ROZIER-ST NIZIER,bus,68,STAS,https://www.reseau-stas.fr/
+LES 3 ROUTES <> BD HAUT FOREZ VIA ABOEN,bus,69,STAS,https://www.reseau-stas.fr/
+CRET DE MARS <> JULES VALLES,bus,70,STAS,https://www.reseau-stas.fr/
+PONT NANTIN <> PORTAIL ROUGE,bus,71,STAS,https://www.reseau-stas.fr/
+GREEN PARK <> COLLEGE A. BRIAND,bus,72,STAS,https://www.reseau-stas.fr/
+ST-GENEST-LERPT <> COLLEGE GRUNER,bus,73,STAS,https://www.reseau-stas.fr/
+COLLEGE LA RIVE <> LAUMIERE,bus,74,STAS,https://www.reseau-stas.fr/
+MAIRIE <> GARE,bus,75,STAS,https://www.reseau-stas.fr/
+COLLEGE JULES ROMAINS <> BUISSONET,bus,76,STAS,https://www.reseau-stas.fr/
+BONZIEUX <> COIN CHARMILLES,bus,77,STAS,https://www.reseau-stas.fr/
+CLOS MARQUET/STELYTEC <> GARE/SAINTE-MARIE,bus,78,STAS,https://www.reseau-stas.fr/
+CRET OEILLET <> LA FAYETTE,bus,79,STAS,https://www.reseau-stas.fr/
+TERRASSE <> SAINT-SAËNS,bus,8,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> ROCHETAILLEE / LA BARBANCHE,bus,80,STAS,https://www.reseau-stas.fr/
+BOURG <> GARE,bus,81,STAS,https://www.reseau-stas.fr/
+LE BESSY 2 <> COLLEGE C. EXBRAYAT,bus,82,STAS,https://www.reseau-stas.fr/
+CHATEAUCREUX GARE <> NELSON MANDELA,bus,83,STAS,https://www.reseau-stas.fr/
+COLL.P.M. CURIE <> MAIRIE,bus,84,STAS,https://www.reseau-stas.fr/
+COLLEGE P. M. CURIE <> BOURG,bus,85,STAS,https://www.reseau-stas.fr/
+TERRASSE <> PLACE DE GAULLE,bus,C1,STAS,https://www.reseau-stas.fr/
+COLLEGE JULES ROMAINS <> BOULEVARD ORELU,bus,C2,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> EGLISE CORBUSIER,bus,M1,STAS,https://www.reseau-stas.fr/
+GARE <> METARE,bus,M2,STAS,https://www.reseau-stas.fr/
+COTONNE <> TERRENOIRE,bus,M3,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> CHATEAUCREUX GARE,bus,M4,STAS,https://www.reseau-stas.fr/
+SQUARE VIOLETTE <> PLACE CHIPIER,bus,M5,STAS,https://www.reseau-stas.fr/
+SQUARE VIOLETTE <> IUT/FACULTE DES SCIENCES,bus,M6,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> MICHON,bus,M7,STAS,https://www.reseau-stas.fr/
+PLACE CARNOT <> MONTREYNAUD,bus,M9,STAS,https://www.reseau-stas.fr/
+PROXISTAS ABOEN/ST NIZIER/ROZIER <> ST MAURICE EN GOURGOIS,bus,PX1,STAS,https://www.reseau-stas.fr/
+BELLEVUE <> EGLISE CORBUSIER,bus,S1,STAS,https://www.reseau-stas.fr/
+COTONNE <> TERRENOIRE,bus,S3,STAS,https://www.reseau-stas.fr/
+SQUARE VIOLETTE <> MARANDINIERE,bus,S6,STAS,https://www.reseau-stas.fr/
+MICHON <> DORIAN/HOTEL DE VILLE,bus,S7,STAS,https://www.reseau-stas.fr/
+JEAN JAURÈS <> MONTREYNAUD,bus,S9,STAS,https://www.reseau-stas.fr/
+HOPITAL NORD <> SOLAURE,tram,T1,STAS,https://www.reseau-stas.fr/
+HOPITAL NORD <> SOLAURE,bus,T1B,STAS,https://www.reseau-stas.fr/
+CITÉ DU DESIGN <> CHATEAUCREUX GARE,tram,T2,STAS,https://www.reseau-stas.fr/
+HOP. NORD/TERRASSE <> BELLEVUE,tram,T3,STAS,https://www.reseau-stas.fr/
+THEY <> PLACE DU DORLAY,bus,TX3,STAS,https://www.reseau-stas.fr/
+MERLEY <> MAIRIE,bus,TX4,STAS,https://www.reseau-stas.fr/

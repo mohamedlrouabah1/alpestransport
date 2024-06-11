@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alpes Transport</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+
+<body style="background-image: url('{{ url_for('static', filename='EveningTrain.gif') }}');">
+    <!-- <div class="gif-container"></div> -->
+
+    <header>
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" id="logo">
+        <h1>Recherche un Itinéraire</h1>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css"
+            integrity="sha512-QQejoJZuVwZfUr0jK33TX1xmybGihf7F/hkM9AihfOZzHnSjYtiCAl/sDgAq4s4t1sQ2k0gk9E3qjzHr1rZd6w=="
+            crossorigin="" />
+        <!-- Include Leaflet JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"
+            integrity="sha512-ADZd/fPZo6xk95NWGOIgwt1yv8XPMi6fBZ05p41inlwqlvZ8A5W0CU5U6P5D6i5y8X0WlCQ7xfuNzZlEw8u/0g=="
+            crossorigin=""></script>
+
+    </header>
+    <main>
+        <!-- <div class="checkbox-container">
+            <label>
+                <input type="checkbox" id="stas">
+                STAS
+            </label>
+            <label>
+                <input type="checkbox" id="sncf">
+                SNCF
+            </label>
+        </div> -->
+        <!-- <img src="{{ url_for('static', filename='EveningTrain.gif') }}" alt="Mon GIF" class="gif-container"> -->
+
+        <form class="bar-arret" id="search-form" action="/search">
+            <input type="hidden" name="transport_mode" id="transport_mode">
+            <input type="text" name="depart" id="search-input" placeholder="Rechercher un départ...">
+            <input type="text" name="arrivee" id="search-input" placeholder="Rechercher une arrivée...">
+
+            <button type="submit" id="search-btn">Rechercher</button>
+        </form>
+
+
+
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='/ujm.png') }}" alt="Mon logo">
+        </div>
+        <p>&copy; 2023 AlpesTransport. Tous droits réservés.</p>
+    </footer>
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var stasCheckbox = document.getElementById('stas');
+            var sncfCheckbox = document.getElementById('sncf');
+            var transportModeInput = document.getElementById('transport_mode');
+
+            stasCheckbox.addEventListener('change', function () {
+                if (stasCheckbox.checked) {
+                    sncfCheckbox.checked = false;
+                    transportModeInput.value = 'stas';
+                } else {
+                    transportModeInput.value = '';
+                }
+            });
+
+            sncfCheckbox.addEventListener('change', function () {
+                if (sncfCheckbox.checked) {
+                    stasCheckbox.checked = false;
+                    transportModeInput.value = 'sncf';
+                } else {
+                    transportModeInput.value = '';
+                }
+            });
+        });
+    </script> -->
+    
+</body>
+
+</html>

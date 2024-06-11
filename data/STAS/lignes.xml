@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery version="1.09:FR-NETEX_LIGNE-2.1-1.0" xmlns="http://www.netex.org.uk/netex" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex">
+	<PublicationTimestamp>2022-08-27T09:10:29+00:00</PublicationTimestamp>
+	<ParticipantRef>transport.data.gouv.fr</ParticipantRef>
+	<dataObjects>
+		<CompositeFrame id="FR:CompositeFrame:NETEX_LIGNE:" version="any">
+			<frames>
+				<ServiceFrame id="FR:ServiceFrame:1:" version="any">
+					<Network id="FR:Network:1:" version="any">
+						<Name>STAS</Name>
+						<members>
+							<LineRef ref="FR:Line:10:">
+							</LineRef>
+							<LineRef ref="FR:Line:101:">
+							</LineRef>
+							<LineRef ref="FR:Line:102:">
+							</LineRef>
+							<LineRef ref="FR:Line:103:">
+							</LineRef>
+							<LineRef ref="FR:Line:104:">
+							</LineRef>
+							<LineRef ref="FR:Line:105:">
+							</LineRef>
+							<LineRef ref="FR:Line:106:">
+							</LineRef>
+							<LineRef ref="FR:Line:107:">
+							</LineRef>
+							<LineRef ref="FR:Line:108:">
+							</LineRef>
+							<LineRef ref="FR:Line:109:">
+							</LineRef>
+							<LineRef ref="FR:Line:11:">
+							</LineRef>
+							<LineRef ref="FR:Line:12:">
+							</LineRef>
+							<LineRef ref="FR:Line:13:">
+							</LineRef>
+							<LineRef ref="FR:Line:14:">
+							</LineRef>
+							<LineRef ref="FR:Line:16:">
+							</LineRef>
+							<LineRef ref="FR:Line:17:">
+							</LineRef>
+							<LineRef ref="FR:Line:20:">
+							</LineRef>
+							<LineRef ref="FR:Line:21:">
+							</LineRef>
+							<LineRef ref="FR:Line:22:">
+							</LineRef>
+							<LineRef ref="FR:Line:23:">
+							</LineRef>
+							<LineRef ref="FR:Line:24:">
+							</LineRef>
+							<LineRef ref="FR:Line:25:">
+							</LineRef>
+							<LineRef ref="FR:Line:27:">
+							</LineRef>
+							<LineRef ref="FR:Line:28:">
+							</LineRef>
+							<LineRef ref="FR:Line:29:">
+							</LineRef>
+							<LineRef ref="FR:Line:30:">
+							</LineRef>
+							<LineRef ref="FR:Line:31:">
+							</LineRef>
+							<LineRef ref="FR:Line:32:">
+							</LineRef>
+							<LineRef ref="FR:Line:33:">
+							</LineRef>
+							<LineRef ref="FR:Line:34:">
+							</LineRef>
+							<LineRef ref="FR:Line:36:">
+							</LineRef>
+							<LineRef ref="FR:Line:37:">
+							</LineRef>
+							<LineRef ref="FR:Line:39:">
+							</LineRef>
+							<LineRef ref="FR:Line:40:">
+							</LineRef>
+							<LineRef ref="FR:Line:41:">
+							</LineRef>
+							<LineRef ref="FR:Line:42:">
+							</LineRef>
+							<LineRef ref="FR:Line:43:">
+							</LineRef>
+							<LineRef ref="FR:Line:44:">
+							</LineRef>
+							<LineRef ref="FR:Line:45:">
+							</LineRef>
+							<LineRef ref="FR:Line:46:">
+							</LineRef>
+							<LineRef ref="FR:Line:47:">
+							</LineRef>
+							<LineRef ref="FR:Line:48:">
+							</LineRef>
+							<LineRef ref="FR:Line:49:">
+							</LineRef>
+							<LineRef ref="FR:Line:57:">
+							</LineRef>
+							<LineRef ref="FR:Line:68:">
+							</LineRef>
+							<LineRef ref="FR:Line:69:">
+							</LineRef>
+							<LineRef ref="FR:Line:70:">
+							</LineRef>
+							<LineRef ref="FR:Line:71:">
+							</LineRef>
+							<LineRef ref="FR:Line:72:">
+							</LineRef>
+							<LineRef ref="FR:Line:73:">
+							</LineRef>
+							<LineRef ref="FR:Line:74:">
+							</LineRef>
+							<LineRef ref="FR:Line:75:">
+							</LineRef>
+							<LineRef ref="FR:Line:76:">
+							</LineRef>
+							<LineRef ref="FR:Line:77:">
+							</LineRef>
+							<LineRef ref="FR:Line:78:">
+							</LineRef>
+							<LineRef ref="FR:Line:79:">
+							</LineRef>
+							<LineRef ref="FR:Line:08:">
+							</LineRef>
+							<LineRef ref="FR:Line:80:">
+							</LineRef>
+							<LineRef ref="FR:Line:81:">
+							</LineRef>
+							<LineRef ref="FR:Line:82:">
+							</LineRef>
+							<LineRef ref="FR:Line:83:">
+							</LineRef>
+							<LineRef ref="FR:Line:84:">
+							</LineRef>
+							<LineRef ref="FR:Line:85:">
+							</LineRef>
+							<LineRef ref="FR:Line:88:">
+							</LineRef>
+							<LineRef ref="FR:Line:89:">
+							</LineRef>
+							<LineRef ref="FR:Line:01:">
+							</LineRef>
+							<LineRef ref="FR:Line:02:">
+							</LineRef>
+							<LineRef ref="FR:Line:03:">
+							</LineRef>
+							<LineRef ref="FR:Line:04:">
+							</LineRef>
+							<LineRef ref="FR:Line:05:">
+							</LineRef>
+							<LineRef ref="FR:Line:06:">
+							</LineRef>
+							<LineRef ref="FR:Line:07:">
+							</LineRef>
+							<LineRef ref="FR:Line:09:">
+							</LineRef>
+							<LineRef ref="FR:Line:180:">
+							</LineRef>
+							<LineRef ref="FR:Line:67:">
+							</LineRef>
+							<LineRef ref="FR:Line:63:">
+							</LineRef>
+							<LineRef ref="FR:Line:64:">
+							</LineRef>
+							<LineRef ref="FR:Line:65:">
+							</LineRef>
+							<LineRef ref="FR:Line:66:">
+							</LineRef>
+							<LineRef ref="FR:Line:50:">
+							</LineRef>
+							<LineRef ref="FR:Line:60:">
+							</LineRef>
+							<LineRef ref="FR:Line:51:">
+							</LineRef>
+							<LineRef ref="FR:Line:52:">
+							</LineRef>
+							<LineRef ref="FR:Line:86:">
+							</LineRef>
+							<LineRef ref="FR:Line:87:">
+							</LineRef>
+						</members>
+					</Network>
+				</ServiceFrame>
+				<ServiceFrame id="FR:ServiceFrame:lines:" version="any">
+					<lines>
+						<Line id="FR:Line:10:" version="any">
+							<Name>PLACE JEAN JAURES &lt;&gt; BOURG</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>10</PublicCode>
+						</Line>
+						<Line id="FR:Line:101:" version="any">
+							<Name>MAISON D&apos;ARRET &lt;&gt; RENE CASSIN</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>101</PublicCode>
+						</Line>
+						<Line id="FR:Line:102:" version="any">
+							<Name>PLACE DU MOULIN &lt;&gt; LUZERNOD</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>102</PublicCode>
+						</Line>
+						<Line id="FR:Line:103:" version="any">
+							<Name>GARE ROUTIERE &lt;&gt; LA FLECHETTE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>103</PublicCode>
+						</Line>
+						<Line id="FR:Line:104:" version="any">
+							<Name>GARE ROUTIERE &lt;&gt; LES VIGNES</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>104</PublicCode>
+						</Line>
+						<Line id="FR:Line:105:" version="any">
+							<Name>GARE ROUTIERE RDG &lt;&gt; MAIRIE CHATEAUNEUF</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>105</PublicCode>
+						</Line>
+						<Line id="FR:Line:106:" version="any">
+							<Name>GARE ROUTIERE RDG &lt;&gt; LE BAJARD</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>106</PublicCode>
+						</Line>
+						<Line id="FR:Line:107:" version="any">
+							<Name>CIMETIERE &lt;&gt; CONDAMINE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>107</PublicCode>
+						</Line>
+						<Line id="FR:Line:108:" version="any">
+							<Name>CIMETIERE &lt;&gt; QUERET</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>108</PublicCode>
+						</Line>
+						<Line id="FR:Line:109:" version="any">
+							<Name>CIMETIERE &lt;&gt; BOURG ST VICTOR</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>109</PublicCode>
+						</Line>
+						<Line id="FR:Line:11:" version="any">
+							<Name>SQUARE VIOLETTE &lt;&gt; MONTPLAISIR</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>11</PublicCode>
+						</Line>
+						<Line id="FR:Line:12:" version="any">
+							<Name>BEL AIR &lt;&gt; VILLEBOEUF-LE-HAUT</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>12</PublicCode>
+						</Line>
+						<Line id="FR:Line:13:" version="any">
+							<Name>LE CHASSEUR &lt;&gt; PORTAIL ROUGE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>13</PublicCode>
+						</Line>
+						<Line id="FR:Line:14:" version="any">
+							<Name>CHATEAUCREUX GARE &lt;&gt; GRAND QUARTIER</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>14</PublicCode>
+						</Line>
+						<Line id="FR:Line:16:" version="any">
+							<Name>LYCEE SIMONE WEIL &lt;&gt; METROTECH</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>16</PublicCode>
+						</Line>
+						<Line id="FR:Line:17:" version="any">
+							<Name>LA BERTRANDIERE &lt;&gt; MAIRIE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>17</PublicCode>
+						</Line>
+						<Line id="FR:Line:20:" version="any">
+							<Name>HAUTS DE TERRENOIRE &lt;&gt; PERROTIERE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>20</PublicCode>
+						</Line>
+						<Line id="FR:Line:21:" version="any">
+							<Name>CRET DE MONTAUD &lt;&gt; PLACE DES PERES</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>21</PublicCode>
+						</Line>
+						<Line id="FR:Line:22:" version="any">
+							<Name>BELLEVUE &lt;&gt; COTONNE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>22</PublicCode>
+						</Line>
+						<Line id="FR:Line:23:" version="any">
+							<Name>BELLEVUE &lt;&gt; LE BERNAY</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>23</PublicCode>
+						</Line>
+						<Line id="FR:Line:24:" version="any">
+							<Name>DORIAN / HOTEL DE VILLE &lt;&gt; PETITES SOEURS</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>24</PublicCode>
+						</Line>
+						<Line id="FR:Line:25:" version="any">
+							<Name>TERRASSE &lt;&gt; GARE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>25</PublicCode>
+						</Line>
+						<Line id="FR:Line:27:" version="any">
+							<Name>TERRASSE &lt;&gt; COLLEGE PARKING NORD</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>27</PublicCode>
+						</Line>
+						<Line id="FR:Line:28:" version="any">
+							<Name>GREEN PARK &lt;&gt; ECOLE DU FAY</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>28</PublicCode>
+						</Line>
+						<Line id="FR:Line:29:" version="any">
+							<Name>PLACE DU MOULIN &lt;&gt; CHATEAUCREUX GARE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>29</PublicCode>
+						</Line>
+						<Line id="FR:Line:30:" version="any">
+							<Name>LA MICHALIERE &lt;&gt; LE PERTUISET</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>30</PublicCode>
+						</Line>
+						<Line id="FR:Line:31:" version="any">
+							<Name>GARE FIRMINY &lt;&gt; LES 3 ROUTES</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>31</PublicCode>
+						</Line>
+						<Line id="FR:Line:32:" version="any">
+							<Name>GARE &lt;&gt; COLLEGE LA RIVE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>32</PublicCode>
+						</Line>
+						<Line id="FR:Line:33:" version="any">
+							<Name>CHAZEAU &lt;&gt; VERTE COLLINE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>33</PublicCode>
+						</Line>
+						<Line id="FR:Line:34:" version="any">
+							<Name>GARE &lt;&gt; MAIRIE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>34</PublicCode>
+						</Line>
+						<Line id="FR:Line:36:" version="any">
+							<Name>JEAN JAURES &lt;&gt; BASE NAUTIQUE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>36</PublicCode>
+						</Line>
+						<Line id="FR:Line:37:" version="any">
+							<Name>HOPITAL NORD &lt;&gt; GARE ANDREZIEUX</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>37</PublicCode>
+						</Line>
+						<Line id="FR:Line:39:" version="any">
+							<Name>NAUTIFORM &lt;&gt; STADE LAPRA</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>39</PublicCode>
+						</Line>
+						<Line id="FR:Line:40:" version="any">
+							<Name>CENTRE CIAL MALADIERE &lt;&gt; PISCINE COUDERC</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>40</PublicCode>
+						</Line>
+						<Line id="FR:Line:41:" version="any">
+							<Name>PLACE DU MOULIN &lt;&gt; CRET OEILLET HAUT</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>41</PublicCode>
+						</Line>
+						<Line id="FR:Line:42:" version="any">
+							<Name>PLACE DU MOULIN &lt;&gt; OLLAGNIERE/LE POYET</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>42</PublicCode>
+						</Line>
+						<Line id="FR:Line:43:" version="any">
+							<Name>CRET OEILLET &lt;&gt; CHAVANNE BOURG</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>43</PublicCode>
+						</Line>
+						<Line id="FR:Line:44:" version="any">
+							<Name>PLACE DU MOULIN &lt;&gt; LA BACHASSE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>44</PublicCode>
+						</Line>
+						<Line id="FR:Line:45:" version="any">
+							<Name>PLACE DU MOULIN &lt;&gt; SAINT-MARTIN-EN-COAILLEUX</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>45</PublicCode>
+						</Line>
+						<Line id="FR:Line:46:" version="any">
+							<Name>GARE ROUTIERE &lt;&gt; MAIRIE/LE MAS</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>46</PublicCode>
+						</Line>
+						<Line id="FR:Line:47:" version="any">
+							<Name>LE PLANTIER &lt;&gt; LA CULA</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>47</PublicCode>
+						</Line>
+						<Line id="FR:Line:48:" version="any">
+							<Name>MAIRIE &lt;&gt; CHARLES DE GAULLE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>48</PublicCode>
+						</Line>
+						<Line id="FR:Line:49:" version="any">
+							<Name>CHARLES DE GAULLE &lt;&gt; MAISON FORTE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>49</PublicCode>
+						</Line>
+						<Line id="FR:Line:57:" version="any">
+							<Name>LES MARIANNES &lt;&gt; LA MADELEINE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>57</PublicCode>
+						</Line>
+						<Line id="FR:Line:68:" version="any">
+							<Name>LES 3 ROUTES &lt;&gt; BD HAUT FOREZ VIA ROZIER-ST NIZIER</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>68</PublicCode>
+						</Line>
+						<Line id="FR:Line:69:" version="any">
+							<Name>LES 3 ROUTES &lt;&gt; BD HAUT FOREZ VIA ABOEN</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>69</PublicCode>
+						</Line>
+						<Line id="FR:Line:70:" version="any">
+							<Name>CRET DE MARS &lt;&gt; JULES VALLES</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>70</PublicCode>
+						</Line>
+						<Line id="FR:Line:71:" version="any">
+							<Name>PONT NANTIN &lt;&gt; PORTAIL ROUGE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>71</PublicCode>
+						</Line>
+						<Line id="FR:Line:72:" version="any">
+							<Name>GREEN PARK &lt;&gt; COLLEGE A. BRIAND</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>72</PublicCode>
+						</Line>
+						<Line id="FR:Line:73:" version="any">
+							<Name>ST-GENEST-LERPT &lt;&gt; COLLEGE GRUNER</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>73</PublicCode>
+						</Line>
+						<Line id="FR:Line:74:" version="any">
+							<Name>COLLEGE LA RIVE &lt;&gt; LAUMIERE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>74</PublicCode>
+						</Line>
+						<Line id="FR:Line:75:" version="any">
+							<Name>MAIRIE &lt;&gt; GARE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>75</PublicCode>
+						</Line>
+						<Line id="FR:Line:76:" version="any">
+							<Name>COLLEGE JULES ROMAINS &lt;&gt; BUISSONET</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>76</PublicCode>
+						</Line>
+						<Line id="FR:Line:77:" version="any">
+							<Name>BONZIEUX &lt;&gt; COIN CHARMILLES</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>77</PublicCode>
+						</Line>
+						<Line id="FR:Line:78:" version="any">
+							<Name>CLOS MARQUET/STELYTEC &lt;&gt; GARE/SAINTE-MARIE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>78</PublicCode>
+						</Line>
+						<Line id="FR:Line:79:" version="any">
+							<Name>CRET OEILLET &lt;&gt; LA FAYETTE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>79</PublicCode>
+						</Line>
+						<Line id="FR:Line:08:" version="any">
+							<Name>TERRASSE &lt;&gt; SAINT-SAËNS</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>8</PublicCode>
+						</Line>
+						<Line id="FR:Line:80:" version="any">
+							<Name>BELLEVUE &lt;&gt; ROCHETAILLEE / LA BARBANCHE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>80</PublicCode>
+						</Line>
+						<Line id="FR:Line:81:" version="any">
+							<Name>BOURG &lt;&gt; GARE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>81</PublicCode>
+						</Line>
+						<Line id="FR:Line:82:" version="any">
+							<Name>LE BESSY 2 &lt;&gt; COLLEGE C. EXBRAYAT</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>82</PublicCode>
+						</Line>
+						<Line id="FR:Line:83:" version="any">
+							<Name>CHATEAUCREUX GARE &lt;&gt; NELSON MANDELA</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>83</PublicCode>
+						</Line>
+						<Line id="FR:Line:84:" version="any">
+							<Name>COLL.P.M. CURIE &lt;&gt; MAIRIE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>84</PublicCode>
+						</Line>
+						<Line id="FR:Line:85:" version="any">
+							<Name>COLLEGE P. M. CURIE &lt;&gt; BOURG</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>85</PublicCode>
+						</Line>
+						<Line id="FR:Line:88:" version="any">
+							<Name>TERRASSE &lt;&gt; PLACE DE GAULLE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>C1</PublicCode>
+						</Line>
+						<Line id="FR:Line:89:" version="any">
+							<Name>COLLEGE JULES ROMAINS &lt;&gt; BOULEVARD ORELU</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>C2</PublicCode>
+						</Line>
+						<Line id="FR:Line:01:" version="any">
+							<Name>BELLEVUE &lt;&gt; EGLISE CORBUSIER</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M1</PublicCode>
+						</Line>
+						<Line id="FR:Line:02:" version="any">
+							<Name>GARE &lt;&gt; METARE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M2</PublicCode>
+						</Line>
+						<Line id="FR:Line:03:" version="any">
+							<Name>COTONNE &lt;&gt; TERRENOIRE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M3</PublicCode>
+						</Line>
+						<Line id="FR:Line:04:" version="any">
+							<Name>BELLEVUE &lt;&gt; CHATEAUCREUX GARE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M4</PublicCode>
+						</Line>
+						<Line id="FR:Line:05:" version="any">
+							<Name>SQUARE VIOLETTE &lt;&gt; PLACE CHIPIER</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M5</PublicCode>
+						</Line>
+						<Line id="FR:Line:06:" version="any">
+							<Name>SQUARE VIOLETTE &lt;&gt; IUT/FACULTE DES SCIENCES</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M6</PublicCode>
+						</Line>
+						<Line id="FR:Line:07:" version="any">
+							<Name>BELLEVUE &lt;&gt; MICHON</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M7</PublicCode>
+						</Line>
+						<Line id="FR:Line:09:" version="any">
+							<Name>PLACE CARNOT &lt;&gt; MONTREYNAUD</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>M9</PublicCode>
+						</Line>
+						<Line id="FR:Line:180:" version="any">
+							<Name>PROXISTAS ABOEN/ST NIZIER/ROZIER &lt;&gt; ST MAURICE EN GOURGOIS</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>PX1</PublicCode>
+						</Line>
+						<Line id="FR:Line:67:" version="any">
+							<Name>BELLEVUE &lt;&gt; EGLISE CORBUSIER</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>S1</PublicCode>
+						</Line>
+						<Line id="FR:Line:63:" version="any">
+							<Name>COTONNE &lt;&gt; TERRENOIRE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>S3</PublicCode>
+						</Line>
+						<Line id="FR:Line:64:" version="any">
+							<Name>SQUARE VIOLETTE &lt;&gt; MARANDINIERE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>S6</PublicCode>
+						</Line>
+						<Line id="FR:Line:65:" version="any">
+							<Name>MICHON &lt;&gt; DORIAN/HOTEL DE VILLE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>S7</PublicCode>
+						</Line>
+						<Line id="FR:Line:66:" version="any">
+							<Name>JEAN JAURÈS &lt;&gt; MONTREYNAUD</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>S9</PublicCode>
+						</Line>
+						<Line id="FR:Line:50:" version="any">
+							<Name>HOPITAL NORD &lt;&gt; SOLAURE</Name>
+							<TransportMode>tram</TransportMode>
+							<PublicCode>T1</PublicCode>
+						</Line>
+						<Line id="FR:Line:60:" version="any">
+							<Name>HOPITAL NORD &lt;&gt; SOLAURE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>T1B</PublicCode>
+						</Line>
+						<Line id="FR:Line:51:" version="any">
+							<Name>CITÉ DU DESIGN &lt;&gt; CHATEAUCREUX GARE</Name>
+							<TransportMode>tram</TransportMode>
+							<PublicCode>T2</PublicCode>
+						</Line>
+						<Line id="FR:Line:52:" version="any">
+							<Name>HOP. NORD/TERRASSE &lt;&gt; BELLEVUE</Name>
+							<TransportMode>tram</TransportMode>
+							<PublicCode>T3</PublicCode>
+						</Line>
+						<Line id="FR:Line:86:" version="any">
+							<Name>THEY &lt;&gt; PLACE DU DORLAY</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>TX3</PublicCode>
+						</Line>
+						<Line id="FR:Line:87:" version="any">
+							<Name>MERLEY &lt;&gt; MAIRIE</Name>
+							<TransportMode>bus</TransportMode>
+							<PublicCode>TX4</PublicCode>
+						</Line>
+					</lines>
+				</ServiceFrame>
+				<ResourceFrame id="FR:ResourceFrame:operators:" version="any">
+					<organisations>
+						<Operator id="FR:Operator:1:" version="any">
+							<Name>STAS</Name>
+							<ContactDetails>
+								<Url>https://www.reseau-stas.fr/</Url>
+							</ContactDetails>
+							<OrganisationType>other</OrganisationType>
+						</Operator>
+					</organisations>
+				</ResourceFrame>
+			</frames>
+		</CompositeFrame>
+	</dataObjects>
+</PublicationDelivery>

@@ -1,0 +1,14 @@
+                                                  trip_id                      stop_id arrival_time departure_time stop_sequence  ... route_desc route_url route_color route_text_color route_sort_order
+0                   AIX_LES_BAINS:VehicleJourney:18654806   AIX_LES_BAINS:Quay:aixave2     07:05:00       07:05:00             1  ...        NaN       NaN      12a537           ffffff          16003.0
+1                   AIX_LES_BAINS:VehicleJourney:18654806   AIX_LES_BAINS:Quay:aixron1     07:05:00       07:05:00             2  ...        NaN       NaN      12a537           ffffff          16003.0
+2                   AIX_LES_BAINS:VehicleJourney:18654806   AIX_LES_BAINS:Quay:aixtre3     07:06:00       07:06:00             3  ...        NaN       NaN      12a537           ffffff          16003.0
+3                   AIX_LES_BAINS:VehicleJourney:18654806  AIX_LES_BAINS:Quay:aixglac1     07:07:00       07:07:00             4  ...        NaN       NaN      12a537           ffffff          16003.0
+4                   AIX_LES_BAINS:VehicleJourney:18654806  AIX_LES_BAINS:Quay:aixonde2     07:08:00       07:08:00             5  ...        NaN       NaN      12a537           ffffff          16003.0
+...                                                   ...                          ...          ...            ...           ...  ...        ...       ...         ...              ...              ...
+684963  THONON:VehicleJourney:F_FA_0133_HIV_VS_2910202...         THONON:Quay:T_FuniA1     18:30:00       18:30:00             1  ...        NaN       NaN      ffffff           000000             11.0
+684964  THONON:VehicleJourney:F_FA_0133_HIV_VS_2910202...         THONON:Quay:T_FuniA2     18:34:00       18:34:00             2  ...        NaN       NaN      ffffff           000000             11.0
+684965  THONON:VehicleJourney:F_FA_0133_HIV_VS_2910202...         THONON:Quay:T_FuniA1     18:30:00       18:30:00             1  ...        NaN       NaN      ffffff           000000             11.0
+684966  THONON:VehicleJourney:F_FA_0133_HIV_VS_2910202...         THONON:Quay:T_FuniA2     18:34:00       18:34:00             2  ...        NaN       NaN      ffffff           000000             11.0
+684967  THONON:VehicleJourney:F_FA_0133_HIV_VS_2910202...         THONON:Quay:T_FuniA1     18:30:00       18:30:00             1  ...        NaN       NaN      ffffff           000000             11.0
+
+[684968 rows x 35 columns]

@@ -1,0 +1,34 @@
+Données du fichier "referentiel gares voyagueurs.csv"
+
+Code plate-forme;
+Code gare;
+Code UIC;
+Date fin validité plateforme;
+Intitulé plateforme;
+Code postal;
+Code Commune;
+Commune;
+Code département;
+Département;
+Longitude;
+Latitude;
+Segment DRG;
+Niveau de service;
+RG;
+TVSs;
+SOPs;
+Gare;
+Intitulé gare;
+Intitulé fronton de gare;
+Gare DRG;
+Gare étrangère;
+DTG;
+Région SNCF;
+Unité gare;
+UT;
+Nbre plateformes;
+TVS;
+WGS
+
+
+===========================

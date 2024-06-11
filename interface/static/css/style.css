@@ -1,0 +1,144 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Add this line to ensure the background is fixed while scrolling */
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 36px;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  width: 70%;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.result-info h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.result-info p {
+  margin: 0;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+.bar-arret {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 200px;
+}
+#map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  border: 2px solid #007bff;
+}
+
+.item-labels-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.map-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#back-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
